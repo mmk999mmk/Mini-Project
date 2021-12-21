@@ -1,3 +1,4 @@
+//test
 drop view f_order_items_dataset;
 drop view f_customers_dataset;
 drop view f_geolocation_dataset;
