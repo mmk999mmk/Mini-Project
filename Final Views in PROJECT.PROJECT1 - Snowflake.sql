@@ -4,7 +4,7 @@ drop view f_geolocation_dataset;
 drop view f_sellers_dataset;
 drop view F_OD_OPD_ORD;
 drop view F_PD_PC;
-
+//edited for testing
 create or replace view f_order_items_dataset as (select * from "HISTORICAL_LOAD"."GCP"."ORDER_ITEMS_DATASET"); 
 
 create or replace view f_customers_dataset as (select * from "HISTORICAL_LOAD"."GCP"."CUSTOMERS_DATASET");
