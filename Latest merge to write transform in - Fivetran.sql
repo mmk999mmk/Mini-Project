@@ -1,3 +1,4 @@
+test
 --------------------------------------------------------------------------------------------------------------------
 MERGE INTO "HISTORICAL_LOAD"."GCP"."CUSTOMERS_DATASET" fcd
 USING "HISTORICAL_LOAD"."GOOGLE_CLOUD_POSTGRESQL_PUBLIC"."CUSTOMERS_DATASET" cd ON fcd.CUSTOMER_ID = cd.CUSTOMER_ID
